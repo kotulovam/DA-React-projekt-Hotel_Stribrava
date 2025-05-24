@@ -1,8 +1,10 @@
+import mapa from './img/mapa.png';
+
 export const Footer = () => {
   return (
-    <section class="dark">
-      <div class="container columns-2">
-        <div class="columns">
+    <section className="dark">
+      <div className="container columns-2">
+        <div className="columns">
           <h2>Heading</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
@@ -10,7 +12,7 @@ export const Footer = () => {
             aperiam temporibus.
           </p>
         </div>
-        <img src="img/image1.svg" />
+        <img src={mapa} />
       </div>
     </section>
   );

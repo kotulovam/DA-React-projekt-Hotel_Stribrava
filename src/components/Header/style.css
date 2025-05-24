@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   aspect-ratio: 16/9;
-  background-image: url(./img/image2.svg);
+  background-image: url("./img/hotel.jpg");
   background-size: cover;
 }
 
