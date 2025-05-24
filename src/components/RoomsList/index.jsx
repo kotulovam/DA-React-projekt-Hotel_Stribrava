@@ -1,6 +1,6 @@
 import './style.css';
 
-export const Rooms = ({ rooms }) => {
+export const RoomsList = ({ rooms, onSelect }) => {
   if (rooms === null) {
     return null;
   }
@@ -11,7 +11,7 @@ export const Rooms = ({ rooms }) => {
         <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
           {rooms.map((room) => (
-            <div key={room.id} className="card">
+            <div key={room.id} className="card" onClick={() => onSelect(room)}>
               <img className="card__image" src={room.image} />
               <div className="card__title">{room.name}</div>
               <div className="card__body">{room.price} Kč na osobu</div>
