@@ -1,3 +1,7 @@
+.dark {
+  background-color: #131e2a;
+}
+
 .cards-row {
   display: flex;
   gap: 1rem;

@@ -4,8 +4,8 @@ export const Rooms = () => {
   return (
     <section className="dark">
       <div className="container">
-        <h2>Heading</h2>
-        <p>Quas odio quidem, enim nihil unde quia temporibus vitae in ab.</p>
+        <h2>Naše pokoje</h2>
+        <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
           <div className="card">
             <img className="card__image" src="img/image1.svg" />

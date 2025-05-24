@@ -5,11 +5,14 @@ export const Footer = () => {
     <section className="dark">
       <div className="container columns-2">
         <div className="columns">
-          <h2>Heading</h2>
+          <h2>Kontakt</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
-            mollitia ut pariatur eos error sunt blanditiis repellat similique
-            aperiam temporibus.
+            Hotel Stříbrava <br />
+            Ke Kamenné lávce 12 <br />
+            317 24 Libnice nad Stříbravou
+          </p>
+          <p style={{ marginTop: '1em', textDecoration: 'underline' }}>
+            recepce@hotelstribrava.cz
           </p>
         </div>
         <img src={mapa} />

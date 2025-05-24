@@ -42,7 +42,7 @@ export const Reservation = () => {
               </label>
               <input id="check1" className="field-input" type="checkbox" />
             </div>
-            <button className="wide">Submit</button>
+            <button className="wide">Odeslat poptávku</button>
           </form>
         </div>
       </div>
