@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Pokoj Deluxe",
+    "description": "Pokoj Deluxe je ideální volbou pro hosty, kteří hledají pohodlí, prostor a elegantní prostředí. Tento prostorný pokoj nabízí velkou manželskou postel s kvalitní matrací, moderní vybavení, luxusní koupelnu s vanou a toaletními potřebami zdarma. Interiér je laděn do přírodních tónů a doplněn o elegantní dekorace, které navozují atmosféru relaxace. Z velkých oken se naskýtá úchvatný výhled na okolní horskou krajinu, který si můžete vychutnat třeba u kávy z vlastního kávovaru. Samozřejmostí je vysokorychlostní Wi-Fi, chytrá televize a minibar. Pokoj je vhodný jak pro páry, tak i pro náročnější jednotlivce, kteří chtějí spojit komfort s estetikou.",
+    "pricePerNight": 1800,
+    "image": "/images/room1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Standardní pokoj",
+    "description": "Standardní pokoj představuje ideální variantu pro krátkodobé i střednědobé ubytování. Pokoj nabízí pohodlnou manželskou nebo dvě oddělené postele s čistým a moderním lůžkovinovým setem. V koupelně najdete sprchový kout, základní hygienické potřeby a fén. Dále je k dispozici pracovní stůl, rychlé Wi-Fi připojení a televize s výběrem kanálů. Díky efektivnímu využití prostoru a praktickému vybavení je pokoj vhodný jak pro turisty, tak i pro služební cesty. Interiér je vkusně zařízen a poskytuje příjemnou atmosféru, která napomáhá klidnému odpočinku po dni stráveném v pohybu.",
+    "pricePerNight": 1200,
+    "image": "/images/room2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Rodinný apartmán",
+    "description": "Rodinný apartmán je ideální pro rodiny s dětmi, které ocení prostor, pohodlí a praktičnost. Apartmán se skládá ze dvou oddělených ložnic – jedna s manželskou postelí pro rodiče, druhá s možností přistýlky nebo dětského lůžka. K dispozici je také menší obývací prostor s gaučem, televizí a jídelním stolem. Kuchyňský kout je vybaven lednicí, mikrovlnnou troubou a varnou konvicí. Samozřejmostí je prostorná koupelna a dostatek úložných prostor. Děti si navíc zamilují speciálně vybavený hrací koutek. Rodinný apartmán poskytuje kombinaci soukromí, zázemí a pohodlí pro vícečlenné skupiny i dlouhodobější pobyty.",
+    "pricePerNight": 2500,
+    "image": "/images/room3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pokoj Economy",
+    "description": "Pokoj Economy je perfektní volbou pro hosty, kteří hledají dostupné ubytování bez kompromisů v pohodlí. Jednoduchý, ale funkční interiér nabízí pohodlnou postel, pracovní koutek, malou šatní skříň a koupelnu se sprchovým koutem. Pokoj je kompaktní a účelně zařízený, ideální pro jednotlivce nebo páry, kteří chtějí ušetřit, aniž by se vzdali základního komfortu. Wi-Fi a televize jsou samozřejmostí, stejně jako denní úklid. Díky příznivé ceně a strategické poloze v blízkosti recepce je tento typ pokoje ideální pro krátkodobé pobyty nebo přespání během cestování.",
+    "pricePerNight": 900,
+    "image": "/images/room4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Romantické apartmá",
+    "description": "Romantické apartmá bylo navrženo s důrazem na atmosféru a soukromí pro nezapomenutelné chvíle ve dvou. Apartmá nabízí prostorný pokoj s king-size postelí, elegantním posezením a vlastní vířivkou. Stylový balkon umožňuje večerní posezení při svíčkách s výhledem na západ slunce. Interiér je laděn do teplých tónů, doplněný o svíčky, květiny a jemné osvětlení. Hosté mohou využít službu snídaně do postele, župany, pantofle a romantickou výzdobu na přání. Ideální pro líbánky, výročí nebo žádost o ruku. Tento pokoj je zážitkem, na který se nezapomíná.",
+    "pricePerNight": 2200,
+    "image": "/images/room5.jpg"
+  }
+]
