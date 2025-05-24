@@ -1,29 +1,22 @@
 import './style.css';
 
-export const Rooms = () => {
+export const Rooms = ({ rooms }) => {
+  if (rooms === null) {
+    return null;
+  }
   return (
     <section className="dark">
       <div className="container">
         <h2>Naše pokoje</h2>
         <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
-          <div className="card">
-            <img className="card__image" src="img/image1.svg" />
-            <div className="card__title">Card 1</div>
-            <div className="card__body">Sunt natus</div>
-          </div>
-
-          <div className="card">
-            <img className="card__image" src="img/image1.svg" />
-            <div className="card__title">Card 2</div>
-            <div className="card__body">Laboriosam</div>
-          </div>
-
-          <div className="card">
-            <img className="card__image" src="img/image1.svg" />
-            <div className="card__title">Card 3</div>
-            <div className="card__body">Eveniet officiis</div>
-          </div>
+          {rooms.map((room) => (
+            <div key={room.id} className="card">
+              <img className="card__image" src={room.image} />
+              <div className="card__title">{room.name}</div>
+              <div className="card__body">{room.price} Kč na osobu</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
