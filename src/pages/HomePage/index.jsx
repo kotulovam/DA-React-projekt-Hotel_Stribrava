@@ -23,14 +23,16 @@ export const HomePage = () => {
   return (
     <>
       <Header />
-      <RoomsList rooms={rooms} onSelect={setChosenRoom} />
-      {chosenRoom === null ? (
-        ''
-      ) : (
+      <RoomsList
+        rooms={rooms}
+        onSelect={setChosenRoom}
+        selectedId={chosenRoom}
+      />
+      {chosenRoom !== null && (
         <section className="light">
           <div className="container">
             <h2>
-              Pokoj {chosenRoom.name}, {chosenRoom.price} Kč na osobu za noc.
+              Pokoj {chosenRoom.name}, {chosenRoom.price} Kč na osobu za noc
             </h2>
             <div className="columns-2">
               <RoomDetail chosenRoom={chosenRoom} />
