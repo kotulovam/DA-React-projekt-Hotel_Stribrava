@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "dayFrom": "2025-05-03",
+    "dayTo": "2025-05-05",
+    "people": "2",
+    "food": "3",
+    "pet": true,
+    "child": false,
+    "disability": true,
+    "totalPrice": 3225
+  },
+  {
+    "id": 1,
+    "dayFrom": "2025-05-03",
+    "dayTo": "2025-05-05",
+    "people": "2",
+    "food": "3",
+    "pet": true,
+    "child": true,
+    "disability": false,
+    "telefon": "+421 545 456 456",
+    "email": "hello@gmail.com",
+    "totalPrice": 3675
+  }
+]

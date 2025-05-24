@@ -36,7 +36,7 @@ export const HomePage = () => {
             </h2>
             <div className="columns-2">
               <RoomDetail chosenRoom={chosenRoom} />
-              <Form />
+              <Form chosenRoom={chosenRoom} />
             </div>
           </div>
         </section>
